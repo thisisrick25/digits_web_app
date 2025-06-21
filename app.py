@@ -92,7 +92,7 @@ if generator:
                 image_np = (image_np + 1) / 2.0
                 
                 with cols[i]:
-                    st.image(image_np, use_column_width=True, caption=f"Image #{i+1}")
+                    st.image(image_np, use_container_width=True, caption=f"Image #{i+1}")
     else:
         st.info("Select a digit and click 'Generate Images' in the sidebar.")
 else:
