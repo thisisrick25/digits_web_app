@@ -140,7 +140,7 @@ if generator:
                 with cols[i]:
                     st.image(
                         image_np,
-                        use_column_width=True,
+                        use_container_width=True,
                         caption=f"Image #{i+1}"
                     )
     else:
